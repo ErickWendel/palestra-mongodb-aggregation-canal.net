@@ -1,6 +1,12 @@
-//6 - A partir dos primeiros 3000 registros, traga o pokemon do tipo bug e HP maior ou igual a 70 ou tipo Fire e HP maior ou igual a 40 com maior numero de participações em combates.
+/*6 - 
+A partir dos primeiros 3000 registros, traga o pokémon com maior número de participações em combates. 
+Seguindo qualquer um dos dois requisitos abaixo: 
 
-// db.combats.count({$or: [{ First_pokemon: 140}, {Second_pokemon: 140}]})
+Tipo BUG com HP maior ou igual a 70. 
+Tipo Fire com HP maior ou igual a 40.
+*/
+
+
 db.combats.aggregate(
     [
         { $limit: 3000 },
