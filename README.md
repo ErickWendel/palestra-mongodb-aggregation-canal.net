@@ -6,6 +6,6 @@ Examples of Talk about MongoDB Aggregation Framework for Developers
 - [MongoDB Aggregation Framework para Desenvolvedores](http://bit.ly/canalnet-aggregation-framework-slides-erickwendel)
 
 ## Video
- - (To define).
+ - [O poder do MongoDB Aggregation Framework para Desenvolvedores](https://youtu.be/pWT-KF0Z2fA).
  
  
